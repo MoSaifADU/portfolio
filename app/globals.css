@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* If you are using @apply for your body or other elements, 
+   make sure they come AFTER the import above */
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+body {
+  @apply bg-gray-950 text-white antialiased;
+  min-height: 100vh;
+}
