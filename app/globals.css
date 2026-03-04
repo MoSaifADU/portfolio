@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* If you are using @apply for your body or other elements, 
    make sure they come AFTER the import above */
@@ -10,6 +12,8 @@
 }
 
 body {
-  @apply bg-gray-950 text-white antialiased;
+  background-color: #050a11;
+  color: white;
+  -webkit-font-smoothing: antialiased;
   min-height: 100vh;
 }
