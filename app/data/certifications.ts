@@ -10,7 +10,7 @@ export const certifications = [
   },
 
    {
-    title: "ISC2 Certified in Cybersecurity (CC) – In Progress",
+    title: "ISC2 Certified in Cybersecurity (CC) –",
     issuer: "ISC2",
     year: "2026",
     description:
@@ -18,6 +18,17 @@ export const certifications = [
     logo: "/logos/isc2.png",
     link: "",
   },
+
+  {
+    title: "CompTIA Security+",
+    issuer: "CompTIA",
+    year: "2026",
+    description:
+      "validates foundational cybersecurity skills including threat management, risk mitigation, identity management, and security infrastructure concepts.",
+    logo: "/logos/compTIA.png",
+    link: "",
+  },
+
 
   {
     title: "Oracle Database Foundations",
