@@ -25,7 +25,7 @@ export const certifications = [
     year: "2026",
     description:
       "validates foundational cybersecurity skills including threat management, risk mitigation, identity management, and security infrastructure concepts.",
-    logo: "/logos/compTIA.png",
+    logo: "/logos/comptia.png",
     link: "",
   },
 
