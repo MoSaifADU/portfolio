@@ -84,7 +84,85 @@ export const projects = [
   liveLink: "",
 }
 ,
+{
+  "slug": "rag-powered-document-chatbot",
+  "title": "RAG Powered Document Chatbot",
 
+  "shortDescription": "A Retrieval-Augmented Generation (RAG) chatbot that provides accurate, grounded answers from uploaded documents with source citations.",
+
+  "overview": "Built a fully functional RAG-powered document chatbot that allows users to upload PDFs or documents and ask natural questions. The system retrieves relevant context and generates accurate responses without hallucinating. Deployed as a live web app using Streamlit.",
+
+  "problem": "Generic LLMs often hallucinate or give incorrect answers when asked about specific documents, policies, manuals, or knowledge bases. Users need a reliable way to query their own data accurately.",
+
+  "solution": "Implemented a complete RAG pipeline that chunks documents, generates embeddings, stores them in a vector database, and retrieves relevant context before passing it to the LLM. Added guardrails, conversation memory, and visible citations for transparency.",
+
+  "features": [
+    "Multi-file PDF/TXT/DOCX upload support",
+    "Accurate retrieval with source citations",
+    "Conversation memory across the session",
+    "Guardrails to prevent hallucination",
+    "Clean, responsive chat interface",
+    "Fast streaming responses"
+  ],
+
+  "tech": [
+    "Python",
+    "LangChain",
+    "OpenAI API (gpt-4o-mini + embeddings)",
+    "Chroma vector store",
+    "Streamlit"
+  ],
+
+  "challenges": [
+    "Optimizing chunk size and overlap for better retrieval quality",
+    "Reducing hallucinations through proper context injection and guardrails",
+    "Ensuring fast response times while maintaining accuracy",
+    "Handling different document formats and structures cleanly"
+  ],
+
+  "video": "",
+  "liveLink": "https://langchain-rag-tutorial-jmdxxsaphdunyc7tgppvby.streamlit.app/"
+}
+,
+{
+  "slug": "ai-chatbot-integration-ecogear",
+  "title": "AI Chatbot Integration – EcoGear Landing Page",
+
+  "shortDescription": "Integrated a RAG-powered AI chatbot directly into a modern Next.js landing page to provide real-time product support and Q&A.",
+
+  "overview": "Built a clean fitness/eco gear landing page and embedded a fully functional AI chatbot widget. The chatbot answers product-related questions accurately using RAG and provides a smooth, branded user experience.",
+
+  "problem": "Most landing pages have static FAQs that don’t answer specific customer questions. Users leave when they can’t get quick, accurate help, hurting conversions and support efficiency.",
+
+  "solution": "Embedded a streaming AI chatbot widget into the Next.js site that combines frontend UX with a RAG backend. The chatbot can pull context from product knowledge and delivers natural, cited responses while matching the site’s design.",
+
+  "features": [
+    "Floating or sidebar AI chat widget",
+    "RAG-powered responses with source citations",
+    "Conversation memory within the session",
+    "Streaming responses for natural feel",
+    "Fully responsive and brand-matched design",
+    "Easy integration into existing websites"
+  ],
+
+  "tech": [
+    "Next.js (App Router)",
+    "React",
+    "Vercel AI SDK",
+    "OpenAI + LangChain (RAG)",
+    "Tailwind CSS"
+  ],
+
+  "challenges": [
+    "Making the chat widget feel native and non-intrusive on the landing page",
+    "Seamlessly connecting frontend chat to the RAG backend",
+    "Ensuring fast loading and smooth streaming experience",
+    "Styling the chatbot to perfectly match the brand without breaking UI"
+  ],
+
+  "video": "",
+  "liveLink": "https://my-ai-chatbot-site.vercel.app/"
+},
   {
   slug: "countries-flag-quiz",
   title: "Countries Flag Quiz Game",
