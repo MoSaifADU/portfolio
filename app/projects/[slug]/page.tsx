@@ -123,6 +123,22 @@ export default async function ProjectDetailPage({
           </ul>
         </section>
       )}
+
+        {project.liveLink && (
+          <section className="mb-10">
+            <h2 className="text-2xl font-semibold mb-4">Live Demo</h2>
+            <a
+              href={project.liveLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:underline"
+            >
+              Visit the live demo
+            </a>
+            
+        </section>
+        )}
+      
     </article>
   );
 }
