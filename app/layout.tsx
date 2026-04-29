@@ -48,7 +48,7 @@ export default function RootLayout({
           <aside className="md:w-1/3 flex flex-col items-center">
             <div className="sticky top-10">
               <Image
-                src="/profile.jpg" // Path to your image in the /public folder
+                src="/portfolio photo.png" // Path to your image in the /public folder
                 alt="Mohammad Saif Sami"
                 width={300}
                 height={300}
