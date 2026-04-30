@@ -43,7 +43,7 @@ export default function Home() {
           >
             {/* Your Profile Picture */}
             <Image
-              src="/profile.jpg"
+              src="/portfolio photo.png"
               alt="Mohammad Saif Sami"
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-110"
